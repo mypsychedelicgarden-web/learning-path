@@ -1,3 +1,4 @@
+# print("Hej! Hello from My Psychedelic Garden!")
 print("Hej! Hello from My Psychedelic Garden!")
 artwork_title = "Self-Reflection"
 artwork_edition_number = 25
