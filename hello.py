@@ -11,4 +11,4 @@ collections = ["ALIEN", "InnerSpace", "Wonderland"]
 works = [12, 8, 15]
 editions = 25
 for title, count in zip(collections, works):
-print(f"Collection {title} contains {count*editions} prints")
+    print(f"Collection {title} contains {count*editions} prints")
