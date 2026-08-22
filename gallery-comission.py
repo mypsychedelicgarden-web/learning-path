@@ -5,4 +5,4 @@
 sales = 2850.75
 comission = 0.35
 my_sale = sales*(1-comission)
-print(f"I will recieve {my_sale: .2f}")
+print(f"I will recieve {my_sale:.2f}")
