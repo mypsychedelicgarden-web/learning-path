@@ -4,4 +4,4 @@ discount = 0.10   # 10%
 vat      = 0.25   # moms 25%
 dis_price = price*(1-discount)
 price_vat = dis_price*(1+vat)
-print(f"Цена: {price:.2f} EUR → co скидкой 10%: {dis_price:.2f} EUR → с НДС 25%: {price_vat} EUR")
+print(f"Цена: {price:.2f} EUR → co скидкой 10%: {dis_price:.2f} EUR → с НДС 25%: {price_vat:.2f} EUR")
