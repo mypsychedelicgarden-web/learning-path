@@ -4,9 +4,9 @@
 #иначе → доступ запрещён
 age = 200
 print(f"Введен возраст {age}")
-if age<=0 or age>=120:
+if age <= 0 or age >= 120:
     print("некорректный возраст")
-elif age>=18:
+elif age >= 18:
     print("доступ разрешён")
 else:
     print("доступ запрещён")
