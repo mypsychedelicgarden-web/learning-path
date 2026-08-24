@@ -3,6 +3,16 @@
 products   = ["открытки", "постеры", "мини-принты"]
 quantities = [130, 47, 205]
 per_box    = 12
+
 for product,quantity in zip(products,quantities):
-    print(f"{product}: {quantity//per_box} full boxes, left {quantity%per_box} pieces")
+    boxes = quantity//per_box
+    leftovers = quantity%per_box
+    if boxes > 1 and leftovers > 1:
+        print(f"{product}: {boxes} full boxes, left {leftovers} pieces")
+    elif boxes > 1 and leftovers == 1:
+          print(f"{product}: {boxes} full boxes, left {leftovers} piece")
+    else:
+          print(f"{product}: {boxes} full box, left {leftovers} pieces")
+          
+
     
